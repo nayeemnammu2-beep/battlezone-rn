@@ -1,0 +1,224 @@
+Running as SYSTEM
+Running Prebuild steps
+In quiet period, build will start momentarily...
+[2025-07-31T06:16:37Z] - INFO: Initializing disk
+Current Partition Information:
+MSFT_Partition (ObjectId = "{1}\\bot-32-e11cf0\root/Microsoft/Windo...)
+Partition Sizing
+@{SizeMin=176870256128; SizeMax=549162302976}
+[2025-07-31T06:18:44Z] - INFO: Finished disk initialization
+Using /home/buildbot/.rvm/gems/ruby-3.3.5
+[2025-07-31T06:18:53Z] - INFO: Beginning dependency updates
+[2025-07-31T06:18:58Z] - INFO: Installing latest BVR version.
+[2025-07-31T06:19:28Z] - INFO: Removing 7.6.5.3.3.5
+Successfully uninstalled bvr-7.6.5.3.3.5
+[2025-07-31T06:19:29Z] - INFO: Updating ffi and ethon versions
+1 gem installed
+Gem 'ethon' is not installed
+[2025-07-31T06:19:30Z] - INFO: Downloading BuildPack DLL
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  5 12.2M    5  663k    0     0  1684k      0  0:00:07 --:--:--  0:00:07 1684k100 12.2M  100 12.2M    0     0  28.9M      0 --:--:-- --:--:-- --:--:--  444M
+[2025-07-31T06:19:31Z] - INFO: Removing previous BuildPack DLL
+[2025-07-31T06:19:31Z] - INFO: Extracting updated BuildPack DLL
+7-Zip 19.00 (x64) : Copyright (c) 1999-2018 Igor Pavlov : 2019-02-21
+Scanning the drive for archives:
+1 file, 12795381 bytes (13 MiB)
+Extracting archive: C:\tools\cygwin\home\buildbot\buildpack.zip
+--
+Path = C:\tools\cygwin\home\buildbot\buildpack.zip
+Type = zip
+Physical Size = 12795381
+Everything is Ok
+Folders: 4
+Files: 20
+Size:       35463700
+Compressed: 12795381
+[2025-07-31T06:19:32Z] - INFO: Finished extracting updated BuildPack DLL
+Requesting Unity licenses for this machine...
+[2025-07-31T06:19:59.098Z] - 7.6.15.3.3.5 - INFO: ++++++++++++++++++++++++++++++++++++++++ 
+[2025-07-31T06:19:59.098Z] - 7.6.15.3.3.5 - INFO: + Acquiring Unity License 
+[2025-07-31T06:19:59.098Z] - 7.6.15.3.3.5 - INFO: ++++++++++++++++++++++++++++++++++++++++ 
+[2025-07-31T06:19:59.098Z] - 7.6.15.3.3.5 - INFO: Attempting to activate a pooled license. 
+Unable to retrieve boot drive serial number
+Trying to acquire floating license from: 10.10.0.10 ...
+License lease state: "Created" with token: "558d2c93-7f38-49e9-8d32-8f0e96877e65", next renewal time: "2025-07-31T07:20:10.2367041Z" (in local time: "2025-07-31T07:20:10.2367041+00:00")
+License (Unity for Enterprise for Product Lifecycle + Forma (Floating)) expires at "2025-08-01T06:15:10.2372293Z" (in local time: "2025-08-01T06:15:10.2372293+00:00")
+IMPORTANT UPDATE: License file is downloaded automatically as a part of this flow. --syncEntitlements is not required anymore.
+Unable to retrieve boot drive serial number
+[2025-07-31T06:20:13.609Z] - 7.6.15.3.3.5 - INFO: [31/Jul/2025:06:20:13] Sent Unity activation metrics 
+[2025-07-31T06:20:14Z] - INFO: Finished updating dependencies
+[2025-07-31T06:20:20.408Z] - 7.6.15.3.3.5 - INFO: ++++++++++++++++++++ SECTION ++++++++++++++++++++ 
+[2025-07-31T06:20:20.408Z] - 7.6.15.3.3.5 - INFO: + Configuring Build Attempt 
+[2025-07-31T06:20:20.409Z] - 7.6.15.3.3.5 - INFO: ++++++++++++++++++++ SECTION ++++++++++++++++++++ 
+[2025-07-31T06:20:20.507Z] - 7.6.15.3.3.5 - INFO: ++++++++++++++++++++++++++++++++++++++++ 
+[2025-07-31T06:20:20.507Z] - 7.6.15.3.3.5 - INFO: + Updating Pre-Build Status 
+[2025-07-31T06:20:20.507Z] - 7.6.15.3.3.5 - INFO: ++++++++++++++++++++++++++++++++++++++++ 
+[2025-07-31T06:20:21.794Z] - 7.6.15.3.3.5 - INFO: prebuildstatus finished successfully. 
+[2025-07-31T06:20:21.794Z] - 7.6.15.3.3.5 - INFO: ++++++++++++++++++++++++++++++++++++++++ 
+[2025-07-31T06:20:21.794Z] - 7.6.15.3.3.5 - INFO: + Setting run time variables 
+[2025-07-31T06:20:21.794Z] - 7.6.15.3.3.5 - INFO: ++++++++++++++++++++++++++++++++++++++++ 
+All identities removed.
+[2025-07-31T06:20:28.768Z] - 7.6.15.3.3.5 - INFO: ++++++++++++++++++++ SECTION ++++++++++++++++++++ 
+[2025-07-31T06:20:28.768Z] - 7.6.15.3.3.5 - INFO: + Fetching Cached workspace_6000_1_14f1_windows 
+[2025-07-31T06:20:28.768Z] - 7.6.15.3.3.5 - INFO: ++++++++++++++++++++ SECTION ++++++++++++++++++++ 
+[important] No Library cache found - ALL assets will be re-imported.
+[2025-07-31T06:20:34.964Z] - 7.6.15.3.3.5 - INFO: ++++++++++++++++++++ SECTION ++++++++++++++++++++ 
+[2025-07-31T06:20:34.965Z] - 7.6.15.3.3.5 - INFO: + Checking out Source Code 
+[2025-07-31T06:20:34.965Z] - 7.6.15.3.3.5 - INFO: ++++++++++++++++++++ SECTION ++++++++++++++++++++ 
+[2025-07-31T06:20:36.792Z] - 7.6.15.3.3.5 - INFO: SCM Checkout 
+[2025-07-31T06:20:36.793Z] - 7.6.15.3.3.5 - INFO: configure_path: '/UNITY_PATH/Unity/windows/scm/plastic/PlasticSCM-11.0.16.8798/client/cm.exe' configure 
+[2025-07-31T06:20:36.793Z] - 7.6.15.3.3.5 - INFO: '/UNITY_PATH/Unity/windows/scm/plastic/PlasticSCM-11.0.16.8798/client/cm.exe' configure --language="en" --workingmode="SSOWorkingMode" --user="****" --token="*****" --server="13469844717703@cloud" --clientconf="BUILD_PATH/config\client.conf" --tokensconf="BUILD_PATH/config\tokens.conf" 
+[2025-07-31T06:20:44.787Z] - 7.6.15.3.3.5 - INFO: '/UNITY_PATH/Unity/windows/scm/plastic/PlasticSCM-11.0.16.8798/client/cm.exe' workspace create p C:\\workspace\\workspace\\p rep:BattleZoneMap.unity/battlezone@13469844717703@cloud --clientconf="BUILD_PATH/config\client.conf" --tokensconf="BUILD_PATH/config\tokens.conf" --cloudregionsconf="BUILD_PATH/config\cloudregions.conf" --config-files="webapi.conf=BUILD_PATH/config\webapi.conf" 
+[2025-07-31T06:20:53.615Z] - 7.6.15.3.3.5 - INFO: Workspace p has been correctly created 
+[2025-07-31T06:20:53.626Z] - 7.6.15.3.3.5 - INFO: Discarding local changes 
+[2025-07-31T06:20:53.626Z] - 7.6.15.3.3.5 - INFO: '/UNITY_PATH/Unity/windows/scm/plastic/PlasticSCM-11.0.16.8798/client/cm.exe' undo -r --clientconf="BUILD_PATH/config\client.conf" --tokensconf="BUILD_PATH/config\tokens.conf" --cloudregionsconf="BUILD_PATH/config\cloudregions.conf" --config-files="webapi.conf=BUILD_PATH/config\webapi.conf" 
+[2025-07-31T06:20:55.417Z] - 7.6.15.3.3.5 - INFO: Removing added files 
+[2025-07-31T06:20:55.417Z] - 7.6.15.3.3.5 - INFO: '/UNITY_PATH/Unity/windows/scm/plastic/PlasticSCM-11.0.16.8798/client/cm.exe' rm private C:\\workspace\\workspace\\p -r --clientconf="BUILD_PATH/config\client.conf" --tokensconf="BUILD_PATH/config\tokens.conf" --cloudregionsconf="BUILD_PATH/config\cloudregions.conf" --config-files="webapi.conf=BUILD_PATH/config\webapi.conf" 
+[2025-07-31T06:20:57.128Z] - 7.6.15.3.3.5 - INFO: Deleted 0 individual files and 0 directory trees. 
+[2025-07-31T06:20:57.141Z] - 7.6.15.3.3.5 - INFO: '/UNITY_PATH/Unity/windows/scm/plastic/PlasticSCM-11.0.16.8798/client/cm.exe' update C:\\workspace\\workspace\\p --silent --changeset\=0 --clientconf="BUILD_PATH/config\client.conf" --tokensconf="BUILD_PATH/config\tokens.conf" --cloudregionsconf="BUILD_PATH/config\cloudregions.conf" --config-files="webapi.conf=BUILD_PATH/config\webapi.conf" 
+[2025-07-31T06:21:00.699Z] - 7.6.15.3.3.5 - INFO: SCM Checkout completed in 23 seconds. 
+[2025-07-31T06:21:00.699Z] - 7.6.15.3.3.5 - INFO: ++++++++++++++++++++++++++++++++++++++++ 
+[2025-07-31T06:21:00.699Z] - 7.6.15.3.3.5 - INFO: + Updating Post-Checkout Status 
+[2025-07-31T06:21:00.699Z] - 7.6.15.3.3.5 - INFO: ++++++++++++++++++++++++++++++++++++++++ 
+[2025-07-31T06:21:00.922Z] - 7.6.15.3.3.5 - INFO: Calculated Workspace Size: 5.11 MiB 
+[2025-07-31T06:21:00.922Z] - 7.6.15.3.3.5 - INFO: '/UNITY_PATH/Unity/windows/scm/plastic/PlasticSCM-11.0.16.8798/client/cm.exe' status --cset --clientconf="BUILD_PATH/config\client.conf" --tokensconf="BUILD_PATH/config\tokens.conf" --cloudregionsconf="BUILD_PATH/config\cloudregions.conf" --config-files="webapi.conf=BUILD_PATH/config\webapi.conf" 
+[2025-07-31T06:21:02.260Z] - 7.6.15.3.3.5 - INFO: postcheckoutstatus finished successfully. 
+[2025-07-31T06:21:02.700Z] - 7.6.15.3.3.5 - INFO: Setting the environment variable "PLASTIC_CM_CONFIG_DIRECTORY". 
+[2025-07-31T06:21:02.700Z] - 7.6.15.3.3.5 - INFO: Setting the environment variable "BUILD_REVISION". 
+[2025-07-31T06:21:07.790Z] - 7.6.15.3.3.5 - INFO: ++++++++++++++++++++ SECTION ++++++++++++++++++++ 
+[2025-07-31T06:21:07.790Z] - 7.6.15.3.3.5 - INFO: + Fetch Android KeyStore 
+[2025-07-31T06:21:07.790Z] - 7.6.15.3.3.5 - INFO: ++++++++++++++++++++ SECTION ++++++++++++++++++++ 
+[2025-07-31T06:21:07.790Z] - 7.6.15.3.3.5 - INFO: Fetching Android Keystore for project 13469844717703/348780bc-a0d0-4147-b75f-23cb8b891652 and credential 9641d670-bfcc-4683-a2f2-f82e5a4948db 
+[2025-07-31T06:21:08.362Z] - 7.6.15.3.3.5 - INFO: Created the Android KeyStore 
+[2025-07-31T06:21:14.632Z] - 7.6.15.3.3.5 - INFO: ++++++++++++++++++++ SECTION ++++++++++++++++++++ 
+[2025-07-31T06:21:14.632Z] - 7.6.15.3.3.5 - INFO: + Build Unity Project 
+[2025-07-31T06:21:14.632Z] - 7.6.15.3.3.5 - INFO: ++++++++++++++++++++ SECTION ++++++++++++++++++++ 
+[error] Error: unrecognized project! Please check your app configuration - if this is a Unity application, We expect your "Project Subdirectory" to be set to the path which directly contains the ProjectSettings and Assets directories. For a native app, this should be set to the path which directly contains the project file (.xcodeproj, project.properties, etc).
+[error]   JSON::ParserError (unexpected token at ''):
+    /home/buildbot/.rvm/rubies/ruby-3.3.5/lib/ruby/3.3.0/json/common.rb:219:in `parse'
+    /home/buildbot/.rvm/rubies/ruby-3.3.5/lib/ruby/3.3.0/json/common.rb:219:in `parse'
+    /home/buildbot/.rvm/gems/ruby-3.3.5/gems/bvr-7.6.15.3.3.5/lib/bvr/thor/tasks/project.rb:176:in `rescue in build_steps'
+    /home/buildbot/.rvm/gems/ruby-3.3.5/gems/bvr-7.6.15.3.3.5/lib/bvr/thor/tasks/project.rb:159:in `build_steps'
+    /home/buildbot/.rvm/gems/ruby-3.3.5/gems/bvr-7.6.15.3.3.5/lib/bvr/thor/tasks/project.rb:77:in `build'
+    /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/command.rb:27:in `run'
+    /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/invocation.rb:126:in `invoke_command'
+    /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor.rb:369:in `dispatch'
+    /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/base.rb:444:in `start'
+    /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/runner.rb:44:in `method_missing'
+    /home/buildbot/.rvm/gems/ruby-3.3.5/gems/bvr-7.6.15.3.3.5/lib/bvr/thor/runner.rb:27:in `block in method_missing'
+    /home/buildbot/.rvm/gems/ruby-3.3.5/gems/bvr-7.6.15.3.3.5/lib/utils/timing.rb:27:in `wrap'
+    /home/buildbot/.rvm/gems/ruby-3.3.5/gems/bvr-7.6.15.3.3.5/lib/bvr/thor/runner.rb:26:in `method_missing'
+    /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/command.rb:29:in `run'
+    /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/command.rb:126:in `run'
+    /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/invocation.rb:126:in `invoke_command'
+    /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor.rb:369:in `dispatch'
+    /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/base.rb:444:in `start'
+    /home/buildbot/.rvm/gems/ruby-3.3.5/gems/bvr-7.6.15.3.3.5/lib/bvr/thor/tasks/buildjobs.rb:65:in `buildscript'
+    /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/command.rb:27:in `run'
+    /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/invocation.rb:126:in `invoke_command'
+    /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor.rb:369:in `dispatch'
+    /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/base.rb:444:in `start'
+    /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/runner.rb:44:in `method_missing'
+    /home/buildbot/.rvm/gems/ruby-3.3.5/gems/bvr-7.6.15.3.3.5/lib/bvr/thor/runner.rb:27:in `block in method_missing'
+    /home/buildbot/.rvm/gems/ruby-3.3.5/gems/bvr-7.6.15.3.3.5/lib/utils/timing.rb:27:in `wrap'
+    /home/buildbot/.rvm/gems/ruby-3.3.5/gems/bvr-7.6.15.3.3.5/lib/bvr/thor/runner.rb:26:in `method_missing'
+    /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/command.rb:29:in `run'
+    /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/command.rb:126:in `run'
+    /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/invocation.rb:126:in `invoke_command'
+    /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor.rb:369:in `dispatch'
+    /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/base.rb:444:in `start'
+    /home/buildbot/.rvm/gems/ruby-3.3.5/gems/bvr-7.6.15.3.3.5/lib/bvr/thor/tasks/buildjobs.rb:29:in `build_script'
+    /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/command.rb:27:in `run'
+    /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/invocation.rb:126:in `invoke_command'
+    /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor.rb:369:in `dispatch'
+    /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/base.rb:444:in `start'
+    /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/runner.rb:44:in `method_missing'
+    /home/buildbot/.rvm/gems/ruby-3.3.5/gems/bvr-7.6.15.3.3.5/lib/bvr/thor/runner.rb:27:in `block in method_missing'
+    /home/buildbot/.rvm/gems/ruby-3.3.5/gems/bvr-7.6.15.3.3.5/lib/utils/timing.rb:27:in `wrap'
+    /home/buildbot/.rvm/gems/ruby-3.3.5/gems/bvr-7.6.15.3.3.5/lib/bvr/thor/runner.rb:26:in `method_missing'
+    /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/command.rb:29:in `run'
+    /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/command.rb:126:in `run'
+    /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/invocation.rb:126:in `invoke_command'
+    /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor.rb:369:in `dispatch'
+    /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/base.rb:444:in `start'
+    /home/buildbot/.rvm/gems/ruby-3.3.5/gems/bvr-7.6.15.3.3.5/bin/bvr_runner:11:in `&#60;main&#62;'
+[error] /home/buildbot/.rvm/gems/ruby-3.3.5/gems/bvr-7.6.15.3.3.5/lib/bvr/project.rb:163:in `abort': Error: unrecognized project! Please check your app configuration - if this is a Unity application, We expect your "Project Subdirectory" to be set to the path which directly contains the ProjectSettings and Assets directories. For a native app, this should be set to the path which directly contains the project file (.xcodeproj, project.properties, etc). (SystemExit)
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/bvr-7.6.15.3.3.5/lib/bvr/project.rb:163:in `validate_projectdir'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/bvr-7.6.15.3.3.5/lib/bvr/project.rb:139:in `build_chain'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/bvr-7.6.15.3.3.5/lib/bvr/project.rb:105:in `build'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/bvr-7.6.15.3.3.5/lib/bvr/thor/tasks/project.rb:167:in `call'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/bvr-7.6.15.3.3.5/lib/bvr/thor/tasks/project.rb:167:in `build_steps'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/bvr-7.6.15.3.3.5/lib/bvr/thor/tasks/project.rb:77:in `build'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/command.rb:27:in `run'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/invocation.rb:126:in `invoke_command'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor.rb:369:in `dispatch'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/base.rb:444:in `start'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/runner.rb:44:in `method_missing'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/bvr-7.6.15.3.3.5/lib/bvr/thor/runner.rb:27:in `block in method_missing'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/bvr-7.6.15.3.3.5/lib/utils/timing.rb:27:in `wrap'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/bvr-7.6.15.3.3.5/lib/bvr/thor/runner.rb:26:in `method_missing'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/command.rb:29:in `run'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/command.rb:126:in `run'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/invocation.rb:126:in `invoke_command'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor.rb:369:in `dispatch'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/base.rb:444:in `start'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/bvr-7.6.15.3.3.5/lib/bvr/thor/tasks/buildjobs.rb:65:in `buildscript'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/command.rb:27:in `run'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/invocation.rb:126:in `invoke_command'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor.rb:369:in `dispatch'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/base.rb:444:in `start'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/runner.rb:44:in `method_missing'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/bvr-7.6.15.3.3.5/lib/bvr/thor/runner.rb:27:in `block in method_missing'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/bvr-7.6.15.3.3.5/lib/utils/timing.rb:27:in `wrap'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/bvr-7.6.15.3.3.5/lib/bvr/thor/runner.rb:26:in `method_missing'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/command.rb:29:in `run'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/command.rb:126:in `run'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/invocation.rb:126:in `invoke_command'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor.rb:369:in `dispatch'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/base.rb:444:in `start'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/bvr-7.6.15.3.3.5/lib/bvr/thor/tasks/buildjobs.rb:29:in `build_script'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/command.rb:27:in `run'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/invocation.rb:126:in `invoke_command'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor.rb:369:in `dispatch'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/base.rb:444:in `start'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/runner.rb:44:in `method_missing'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/bvr-7.6.15.3.3.5/lib/bvr/thor/runner.rb:27:in `block in method_missing'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/bvr-7.6.15.3.3.5/lib/utils/timing.rb:27:in `wrap'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/bvr-7.6.15.3.3.5/lib/bvr/thor/runner.rb:26:in `method_missing'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/command.rb:29:in `run'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/command.rb:126:in `run'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/invocation.rb:126:in `invoke_command'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor.rb:369:in `dispatch'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/thor-0.19.4/lib/thor/base.rb:444:in `start'
+	from /home/buildbot/.rvm/gems/ruby-3.3.5/gems/bvr-7.6.15.3.3.5/bin/bvr_runner:11:in `&#60;main&#62;'
+[2025-07-31T06:21:15.370Z] - 7.6.15.3.3.5 - INFO: Setting the environment variable "BUILD_RESULT". 
+[2025-07-31T06:21:15.370Z] - 7.6.15.3.3.5 - INFO: Setting the environment variable "BUILD_RESULT". 
+[2025-07-31T06:21:15.371Z] - 7.6.15.3.3.5 - INFO: Setting the environment variable "BUILD_RESULT". 
+[2025-07-31T06:21:21.193Z] - 7.6.15.3.3.5 - INFO: ++++++++++++++++++++ SECTION ++++++++++++++++++++ 
+[2025-07-31T06:21:21.193Z] - 7.6.15.3.3.5 - INFO: + Publishing 
+[2025-07-31T06:21:21.193Z] - 7.6.15.3.3.5 - INFO: ++++++++++++++++++++ SECTION ++++++++++++++++++++ 
+[2025-07-31T06:21:21.196Z] - 7.6.15.3.3.5 - INFO: Publishing build 1 of 8842c892-fc36-442e-0000-0c40314f4087/348780bc-a0d0-4147-b75f-23cb8b891652 for target 'default-android'... 
+[2025-07-31T06:21:23.057Z] - 7.6.15.3.3.5 - INFO: SCM Checkout with credentials 
+[2025-07-31T06:21:23.057Z] - 7.6.15.3.3.5 - INFO: configure_path: '/UNITY_PATH/Unity/windows/scm/plastic/PlasticSCM-11.0.16.8798/client/cm.exe' configure 
+[2025-07-31T06:21:23.057Z] - 7.6.15.3.3.5 - INFO: '/UNITY_PATH/Unity/windows/scm/plastic/PlasticSCM-11.0.16.8798/client/cm.exe' configure --language="en" --workingmode="SSOWorkingMode" --user="****" --token="*****" --server="13469844717703@cloud" --clientconf="BUILD_PATH/config\client.conf" --tokensconf="BUILD_PATH/config\tokens.conf" 
+[2025-07-31T06:21:23.784Z] - 7.6.15.3.3.5 - INFO: '/UNITY_PATH/Unity/windows/scm/plastic/PlasticSCM-11.0.16.8798/client/cm.exe' workspace create artifacts C:\\workspace\\workspace\\artifacts rep:BattleZone_UnityProject.zip/348780bc-a0d0-4147-b75f-23cb8b891652_artifacts@13469844717703@cloud --clientconf="BUILD_PATH/config\client.conf" --tokensconf="BUILD_PATH/config\tokens.conf" --cloudregionsconf="BUILD_PATH/config\cloudregions_artifacts_and_cache.conf" --config-files="webapi.conf=BUILD_PATH/config\webapi_artifacts_and_cache.conf" 
+[2025-07-31T06:21:28.230Z] - 7.6.15.3.3.5 - INFO: Workspace artifacts has been correctly created 
+[2025-07-31T06:21:28.242Z] - 7.6.15.3.3.5 - INFO: '/UNITY_PATH/Unity/windows/scm/plastic/PlasticSCM-11.0.16.8798/client/cm.exe' switch br:243f8050-2479-4ab0-af3a-234ac50fa297/build-attempt-1 --clientconf="BUILD_PATH/config\client.conf" --tokensconf="BUILD_PATH/config\tokens.conf" --cloudregionsconf="BUILD_PATH/config\cloudregions_artifacts_and_cache.conf" --config-files="webapi.conf=BUILD_PATH/config\webapi_artifacts_and_cache.conf" 
+[2025-07-31T06:21:30.215Z] - 7.6.15.3.3.5 - INFO: Performing switch operation... 
+[2025-07-31T06:21:30.295Z] - 7.6.15.3.3.5 - INFO: Searching for changed items in the workspace... 
+[2025-07-31T06:21:30.563Z] - 7.6.15.3.3.5 - INFO: Setting the new selector... 
+[2025-07-31T06:21:32.448Z] - 7.6.15.3.3.5 - INFO: Unity VCS is updating your workspace. Wait a moment, please... 
+[2025-07-31T06:21:33.178Z] - 7.6.15.3.3.5 - INFO: The workspace c:\workspace\workspace\artifacts is up-to-date (cset:0@BattleZone_UnityProject.zip/348780bc-a0d0-4147-b75f-23cb8b891652_artifacts@13469844717703@unity) 
+[2025-07-31T06:21:33.206Z] - 7.6.15.3.3.5 - INFO: '/UNITY_PATH/Unity/windows/scm/plastic/PlasticSCM-11.0.16.8798/client/cm.exe' update C:\\workspace\\workspace\\artifacts --silent --clientconf="BUILD_PATH/config\client.conf" --tokensconf="BUILD_PATH/config\tokens.conf" --cloudregionsconf="BUILD_PATH/config\cloudregions_artifacts_and_cache.conf" --config-files="webapi.conf=BUILD_PATH/config\webapi_artifacts_and_cache.conf" 
+[2025-07-31T06:21:35.957Z] - 7.6.15.3.3.5 - INFO: SCM Checkout with credentials completed in 12 seconds. 
+[2025-07-31T06:21:35.958Z] - 7.6.15.3.3.5 - INFO: No files were added to be checked in therefore the check-in operation will not be performed 
+[2025-07-31T06:21:35.959Z] - 7.6.15.3.3.5 - INFO: Zipping cache files from . using compression level 6 
+[2025-07-31T06:21:36.349Z] - 7.6.15.3.3.5 - INFO: Created the archive file in 0.3898043 seconds. 
+[2025-07-31T06:21:36.863Z] - 7.6.15.3.3.5 - DEBUG: done. 
+[2025-07-31T06:21:38.559Z] - 7.6.15.3.3.5 - INFO: Setting the environment variable "PLASTIC_CM_CONFIG_DIRECTORY". 
+Using /home/buildbot/.rvm/gems/ruby-3.3.5
+[2025-07-31T06:22:10.189Z] - 7.6.15.3.3.5 - INFO: postbuildsteps finished successfully 
+[2025-07-31T06:22:21.536Z] - 7.6.15.3.3.5 - INFO: postbuildstatus finished successfully. 
+[success] Finished: SUCCESS
